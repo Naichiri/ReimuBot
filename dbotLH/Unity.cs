@@ -24,6 +24,8 @@ namespace dbotLH
         {
             _container = new UnityContainer();
             _container.RegisterType<IDataStorage, InMemoryStorage>(new ContainerControlledLifetimeManager());
+            _container.RegisterType<ILogger, Logger>(new ContainerControlledLifetimeManager());
+            _container.RegisterType<Core.Connection>(new ContainerControlledLifetimeManager());
         }
 
         public static T Resolve<T>()

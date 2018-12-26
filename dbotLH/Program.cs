@@ -1,4 +1,5 @@
-﻿using System;
+﻿using dbotLH.Core;
+using dbotLH.Core.Entities;
 
 namespace dbotLH
 {
@@ -7,7 +8,14 @@ namespace dbotLH
         private static void Main()
         {
             Unity.RegisterTypes();
-            Console.WriteLine("Hello World!");
+
+            BotConfig discordBotConfig = new BotConfig
+            {
+                Token = "TOKEN",
+                SocketConfig = SocketConfig.GetDefault()
+            };
+
+            Connection connection = Unity.Resolve<Connection>();
         }
     }
 }
