@@ -1,6 +1,7 @@
 ﻿using dbotLH.Storage;
 using dbotLH.Storage.Implementations;
 using Unity;
+using Unity.Lifetime;
 using Unity.Resolution;
 
 namespace dbotLH
@@ -22,7 +23,7 @@ namespace dbotLH
         public static void RegisterTypes()
         {
             _container = new UnityContainer();
-            _container.RegisterType<IDataStorage, InMemoryStorage>();
+            _container.RegisterType<IDataStorage, InMemoryStorage>(new ContainerControlledLifetimeManager());
         }
 
         public static T Resolve<T>()
