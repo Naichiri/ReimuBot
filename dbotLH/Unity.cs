@@ -4,7 +4,6 @@ using dbotLH.Storage.Implementations;
 using Discord.WebSocket;
 using Unity;
 using Unity.Injection;
-using Unity.Lifetime;
 using Unity.Resolution;
 
 namespace dbotLH
@@ -30,7 +29,7 @@ namespace dbotLH
             _container.RegisterSingleton<ILogger, Logger>();
             _container.RegisterType<DiscordSocketConfig>(new InjectionFactory(i => SocketConfig.GetDefault()));
             _container.RegisterSingleton<DiscordSocketClient>(new InjectionConstructor(typeof(DiscordSocketConfig)));
-            _container.RegisterSingleton<Core.Connection>();
+            _container.RegisterSingleton<Connection>();
         }
 
         public static T Resolve<T>()

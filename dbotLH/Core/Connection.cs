@@ -1,7 +1,6 @@
 ﻿using dbotLH.Core.Entities;
 using Discord;
 using Discord.WebSocket;
-using System;
 using System.Threading.Tasks;
 
 namespace dbotLH.Core
