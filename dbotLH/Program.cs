@@ -19,8 +19,6 @@ namespace dbotLH
             {
                 Token = storage.RestoreObject<string>("Config/BotToken")
             });
-
-            Console.ReadKey();
         }
     }
 }
