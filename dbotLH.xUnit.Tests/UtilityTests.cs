@@ -1,6 +1,6 @@
 ﻿using Xunit;
 
-namespace dbotLH.xUnit.Tests
+namespace dbotLHxUnitTests
 {
     public class UtilityTests
     {
