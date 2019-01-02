@@ -17,7 +17,8 @@ namespace dbotLH
             Connection connection = Unity.Resolve<Connection>();
             await connection.ConnectAsync(new BotConfig
             {
-                Token = storage.RestoreObject<string>("Config/BotToken")
+                Token = storage.RestoreObject<string>("Config/BotToken"),
+                Activity = storage.RestoreObject<BotActivity>("Config/BotActivity")
             });
         }
     }

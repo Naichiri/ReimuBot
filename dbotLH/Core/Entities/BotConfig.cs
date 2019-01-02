@@ -3,5 +3,6 @@
     public class BotConfig
     {
         public string Token { get; set; }
+        public BotActivity Activity { get; set; }
     }
 }

@@ -24,6 +24,8 @@ namespace dbotLH.Core
             await _client.LoginAsync(TokenType.Bot, config.Token);
             await _client.StartAsync();
 
+            await _client.SetActivityAsync(config.Activity);
+
             await Task.Delay(-1);
         }
     }
