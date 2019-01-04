@@ -18,7 +18,8 @@ namespace dbotLH
             await connection.ConnectAsync(new BotConfig
             {
                 Token = storage.RestoreObject<string>("Config/BotToken"),
-                Activity = storage.RestoreObject<BotActivity>("Config/BotActivity")
+                Activity = storage.RestoreObject<BotActivity>("Config/BotActivity"),
+                Prefix = storage.RestoreObject<string>("Config/BotPrefix")
             });
         }
     }
