@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace dbotLH.Storage.Implementations
+namespace FuyumiBot.Storage.Implementations
 {
     public class InMemoryStorage : IDataStorage
     {

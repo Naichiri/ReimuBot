@@ -1,4 +1,4 @@
-﻿namespace dbotLH.Core.Entities
+﻿namespace FuyumiBot.Core.Entities
 {
     public class BotConfig
     {

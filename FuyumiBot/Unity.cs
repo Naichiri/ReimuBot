@@ -1,12 +1,12 @@
-﻿using dbotLH.Core;
-using dbotLH.Storage;
-using dbotLH.Storage.Implementations;
+﻿using FuyumiBot.Core;
+using FuyumiBot.Storage;
+using FuyumiBot.Storage.Implementations;
 using Discord.WebSocket;
 using Unity;
 using Unity.Injection;
 using Unity.Resolution;
 
-namespace dbotLH
+namespace FuyumiBot
 {
     public static class Unity
     {

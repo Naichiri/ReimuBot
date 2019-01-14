@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbotLH", "dbotLH\dbotLH.csproj", "{0C88F46C-CB09-4F3F-83F9-C257E5A45ABA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuyumiBot", "FuyumiBot\FuyumiBot.csproj", "{0C88F46C-CB09-4F3F-83F9-C257E5A45ABA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbotLH.xUnit.Tests", "dbotLH.xUnit.Tests\dbotLH.xUnit.Tests.csproj", "{3E89FDED-B219-4D97-A5A0-602E1FCFF2DD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FuyumiBot.xUnit.Tests", "FuyumiBot.xUnit.Tests\FuyumiBot.xUnit.Tests.csproj", "{3E89FDED-B219-4D97-A5A0-602E1FCFF2DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

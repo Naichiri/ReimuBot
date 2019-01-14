@@ -1,7 +1,7 @@
 ﻿using Discord;
 using System.Threading.Tasks;
 
-namespace dbotLH.Core
+namespace FuyumiBot.Core
 {
     public class DiscordLogger
     {

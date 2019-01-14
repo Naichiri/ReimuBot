@@ -1,9 +1,9 @@
-﻿using dbotLH.Core.Entities;
+﻿using FuyumiBot.Core.Entities;
 using Discord;
 using Discord.WebSocket;
 using System.Threading.Tasks;
 
-namespace dbotLH.Core
+namespace FuyumiBot.Core
 {
     public class Connection
     {

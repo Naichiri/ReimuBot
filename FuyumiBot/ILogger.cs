@@ -1,4 +1,4 @@
-﻿namespace dbotLH
+﻿namespace FuyumiBot
 {
     public interface ILogger
     {

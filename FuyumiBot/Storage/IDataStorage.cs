@@ -1,4 +1,4 @@
-﻿namespace dbotLH.Storage
+﻿namespace FuyumiBot.Storage
 {
     public interface IDataStorage
     {

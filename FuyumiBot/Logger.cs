@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace dbotLH
+namespace FuyumiBot
 {
     public class Logger : ILogger
     {

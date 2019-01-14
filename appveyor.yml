@@ -9,4 +9,4 @@ dotnet_csproj:
 build_script:
   - dotnet build -c Release
 test_script:
-  - dotnet test dbotLH.xUnit.Tests/dbotLH.xUnit.Tests.csproj
+  - dotnet test FuyumiBot.xUnit.Tests/FuyumiBot.xUnit.Tests.csproj

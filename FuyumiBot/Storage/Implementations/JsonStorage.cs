@@ -2,7 +2,7 @@
 using System.IO;
 using static System.IO.Directory;
 
-namespace dbotLH.Storage.Implementations
+namespace FuyumiBot.Storage.Implementations
 {
     public class JsonStorage : IDataStorage
     {

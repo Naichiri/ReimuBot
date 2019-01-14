@@ -1,7 +1,7 @@
 ﻿using Discord;
 using Discord.WebSocket;
 
-namespace dbotLH.Core
+namespace FuyumiBot.Core
 {
     public static class SocketConfig
     {

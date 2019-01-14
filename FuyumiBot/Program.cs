@@ -1,10 +1,10 @@
-﻿using dbotLH.Core;
-using dbotLH.Core.Entities;
-using dbotLH.Storage;
+﻿using FuyumiBot.Core;
+using FuyumiBot.Core.Entities;
+using FuyumiBot.Storage;
 using System;
 using System.Threading.Tasks;
 
-namespace dbotLH
+namespace FuyumiBot
 {
     internal class Program
     {
