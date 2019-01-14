@@ -345,6 +345,3 @@ healthchecksdb
 
 # Application directory
 Config/
-
-# Visual Studio csproj
-*.csproj
