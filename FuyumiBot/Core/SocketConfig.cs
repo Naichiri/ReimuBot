@@ -7,9 +7,9 @@ namespace FuyumiBot.Core
     {
         public static DiscordSocketConfig GetDefault()
         {
-            return new DiscordSocketConfig()
+            return new DiscordSocketConfig
             {
-
+                LogLevel = LogSeverity.Verbose
             };
         }
 
