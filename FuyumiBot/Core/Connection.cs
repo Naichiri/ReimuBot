@@ -17,7 +17,7 @@ namespace FuyumiBot.Core
             _client = client;
         }
 
-        internal async Task ConnectAsync(BotConfig config)
+        public async Task ConnectAsync(BotConfig config)
         {
             _client.Log += _logger.Log;
 
@@ -25,8 +25,6 @@ namespace FuyumiBot.Core
             await _client.StartAsync();
 
             await _client.SetActivityAsync(config.Activity);
-
-            await Task.Delay(-1);
         }
     }
 }
