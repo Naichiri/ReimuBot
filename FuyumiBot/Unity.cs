@@ -1,4 +1,5 @@
 ﻿using FuyumiBot.Core;
+using FuyumiBot.Core.Handlers;
 using FuyumiBot.Storage;
 using FuyumiBot.Storage.Implementations;
 using Discord.WebSocket;
@@ -30,6 +31,7 @@ namespace FuyumiBot
             _container.RegisterType<DiscordSocketConfig>(new InjectionFactory(i => SocketConfig.GetDefault()));
             _container.RegisterSingleton<DiscordSocketClient>(new InjectionConstructor(typeof(DiscordSocketConfig)));
             _container.RegisterSingleton<Connection>();
+            _container.RegisterSingleton<ICommandHandler, DiscordCommandHandler>();
         }
 
         public static T Resolve<T>()
