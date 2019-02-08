@@ -37,7 +37,7 @@ namespace FuyumiBot.Core.Handlers
             if (!(s is SocketUserMessage message)) return;
 
             int argPos = 0;
-            // if not a command; also argPos defines where does the prefix end
+            // if not a command; also argPos defines where the prefix ends
             if (!(message.HasStringPrefix(_prefix, ref argPos) || message.HasMentionPrefix(_client.CurrentUser, ref argPos))) return;
 
             var context = new SocketCommandContext(_client, message);
