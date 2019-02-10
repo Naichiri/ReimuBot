@@ -7,7 +7,7 @@ namespace FuyumiBot
         public void Log(string message)
         {
             if(message == null)
-                throw new ArgumentException("cannot log a null message.");
+                return;
             Console.WriteLine(message);
         }
     }
