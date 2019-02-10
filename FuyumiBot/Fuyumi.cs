@@ -23,7 +23,7 @@ namespace FuyumiBot
         public async Task Start()
         {
             await _connection.ConnectAsync(_config);
-            await _commandHandler.SetPrefixAsync(_config.Prefix);
+            await _commandHandler.SetPrefixAsync(_config.DefaultPrefix);
             await _commandHandler.InitialiseAsync();
         }
     }

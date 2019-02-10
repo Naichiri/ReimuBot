@@ -6,6 +6,6 @@
 
         public BotActivity Activity { get; set; }
 
-        public string Prefix { get; set; }
+        public string DefaultPrefix { get; set; }
     }
 }
