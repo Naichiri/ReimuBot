@@ -33,7 +33,7 @@ namespace ReimuBot.Core.Modules.Utilities
             {
                 var botEmbed = new EmbedBuilder();
 
-                botEmbed.WithColor(Color.Blue);
+                botEmbed.WithColor(Color.Red);
                 botEmbed.WithTitle($"{ReimuInfo.Name} | {ReimuInfo.KanjiName}");
                 botEmbed.WithDescription("A miko bot doing nothing at the moment save being cute");
                 botEmbed.WithThumbnailUrl(Context.Client.CurrentUser.GetAvatarUrl());
